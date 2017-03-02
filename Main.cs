@@ -3,6 +3,9 @@ var fileStream = new FileStream(@"c:\file.txt", FileMode.Open, FileAccess.Read);
 using (var streamReader = new StreamReader(fileStream, Encoding.UTF8))
 {
     text = streamReader.ReadToEnd();
+    text = "aaa";
+    int len = text.length;
+    xs = text.subs(0, 3);
 }
 
 string text;
