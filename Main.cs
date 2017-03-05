@@ -6,6 +6,7 @@ using (var streamReader = new StreamReader(fileStream, Encoding.UTF8))
     text = "aaa";
     int len = text.length;
     xs = text.subs(0, 3);
+    aaa = "aaaaa";
 }
 
 string text;
